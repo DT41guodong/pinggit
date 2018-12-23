@@ -39,4 +39,6 @@ public class UserBaseImpl implements UserBaseInter {
 
 		return null;
 	}
+	
+	private String sessions="code";
 }
