@@ -22,6 +22,8 @@ public class UserBaseImpl implements UserBaseInter {
 	private String name3="测试";
 
 	private String name4="测试";
+	
+	private String code="001";
 	@Override
 	public void insert(Map<String, Object> map) {
 
