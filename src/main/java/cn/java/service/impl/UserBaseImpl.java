@@ -12,6 +12,8 @@ import cn.java.service.UserBaseInter;
 public class UserBaseImpl implements UserBaseInter {
 
 	public final static Map<String, Object> reqMap = new HashMap<>();
+	
+	private String name="测试":
 
 	@Override
 	public void insert(Map<String, Object> map) {
