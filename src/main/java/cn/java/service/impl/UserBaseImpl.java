@@ -22,6 +22,11 @@ public class UserBaseImpl implements UserBaseInter {
 	private String name3="测试";
 
 	private String name4="测试";
+	
+	
+	private int a=1;
+	
+	private boolean flag=false;
 	@Override
 	public void insert(Map<String, Object> map) {
 
