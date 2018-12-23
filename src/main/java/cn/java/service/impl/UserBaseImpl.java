@@ -29,6 +29,10 @@ public class UserBaseImpl implements UserBaseInter {
 	
 	private boolean flag=false;
 	
+	private Long id=1L;
+	
+	private Long sex=2L;
+	
 	@Override
 	public void insert(Map<String, Object> map) {
 
