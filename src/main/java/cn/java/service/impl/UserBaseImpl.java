@@ -14,6 +14,12 @@ public class UserBaseImpl implements UserBaseInter {
 	public final static Map<String, Object> reqMap = new HashMap<>();
 	
 	private String name="测试";
+	
+	private String name1="测试";
+	
+	private String name2="测试";
+	
+	private String name3="测试";
 
 	@Override
 	public void insert(Map<String, Object> map) {
