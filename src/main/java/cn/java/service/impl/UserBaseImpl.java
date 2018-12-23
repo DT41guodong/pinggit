@@ -28,6 +28,8 @@ public class UserBaseImpl implements UserBaseInter {
 	private int a=1;
 	
 	private boolean flag=false;
+	
+	private boolean flag1=true;
 
 	@Override
 	public void insert(Map<String, Object> map) {
